@@ -1,0 +1,473 @@
+/* index.css or App.css */
+
+div #app2 {
+  margin-top: 40px;
+  text-align: center;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 30px 20px 0px 20px;
+}
+
+/* Table styling */
+table {
+  border-radius: 20px;
+  color: white;
+}
+
+/* Table row styling */
+tr {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Navbar styling */
+#home {
+  background-color: cornflowerblue !important;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+/* Dropdown menu styling */
+#basic-nav-dropdown {
+  background-color: #964b00 !important;
+  color: white;
+  border: solid;
+  border-radius: 15px;
+  border-color: white;
+  border-width: 2px;
+  box-shadow: white;
+}
+
+/* Basic nav styling */
+#basic-nav {
+  background-color: #45b3fa !important;
+}
+
+/* Navigation item styling */
+#nav0 {
+  margin-left: 20px;
+}
+#nav1 {
+  margin-left: 400px;
+}
+
+#nav2 {
+  margin-left: 40px;
+}
+
+#nav3 {
+  margin-left: 60px;
+}
+
+#nav4 {
+  margin-left: 100px;
+}
+
+#nav5 {
+  margin-left: 200px;
+}
+
+/* Text block styling */
+.text-block {
+  color: white;
+  font-size: larger;
+}
+
+/* Button styling */
+#homebutton {
+  font-size: medium;
+  background-color: #964b00 !important;
+  color: white !important;
+  border: solid !important;
+  border-radius: 1px !important;
+  border-color: white !important;
+  border-width: 1px !important;
+  box-shadow: white !important;
+}
+
+/* Button styling */
+#button {
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: white;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 4px solid #964b00;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #964b00;
+}
+
+#button2 {
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 5px 5px;
+  width: 110px;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: white;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 4px solid #964b00;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #45b3fa;
+}
+
+/* Button hover effects */
+#button:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #964b00;
+}
+
+#button2:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #964b00;
+}
+
+/* Button active effects */
+#button:active {
+  transform: scale(0.9);
+  color: #964b00;
+}
+
+#button2:active {
+  transform: scale(0.9);
+  color: #964b00;
+}
+
+/* Search bar styling */
+#search {
+  width: 180px;
+  height: 45px;
+  margin-top: 20px;
+}
+
+/* Background images */
+div #add2 {
+  background: url("https://pearlsol.com/img/breadcrumb/hd%20blog%20pic.jpg");
+  background: cover;
+  color: white;
+}
+
+div #edit2 {
+  background: url("https://pearlsol.com/img/breadcrumb/hd%20blog%20pic.jpg");
+  background: cover;
+  color: white;
+}
+
+/* General font family*/
+div {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Body background image */
+body {
+  background-image: url("homebackground.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: ani 1s ease-in forwards;
+}
+
+#body {
+  animation: ani 1s ease-in forwards;
+}
+
+/* Animation keyframes */
+@keyframes ani {
+  from {
+    opacity: 0;
+    margin-top: -50px;
+  }
+  to {
+    opacity: 1;
+    margin-bottom: 10px;
+  }
+}
+
+/* Home Page */
+
+/* Section Slider */
+
+.slider-slide {
+  position: relative;
+}
+
+.slider-image {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.slider-container {
+  width: 120%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.slider-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.slider-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.slick-dots li button:before {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.slick-prev {
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url("https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-arrow-left.svg")
+    center center no-repeat;
+}
+
+.slick-next {
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url("https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-arrow-right.svg")
+    center center no-repeat;
+}
+
+/* About Us Section */
+
+.home-title {
+  color: white;
+}
+
+.collaborator-card {
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 0 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.collaborator-card img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+/* Contact Us Section */
+.contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.contact-image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.contact-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.contact-form {
+  flex: 2;
+  max-width: 600px;
+  margin-left: 20px;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+}
+
+.contact-form .form-control {
+  margin-bottom: 10px;
+}
+
+/* View Connections */
+
+.distribution-title {
+  color: white;
+}
+
+.connection-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 100%;
+}
+
+.connection-image {
+  height: 180px;
+  object-fit: cover;
+}
+
+.connection-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.grid-item {
+  margin-bottom: 20px;
+}
+
+.connection-card {
+  border: 2px solid white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.connection-image {
+  border: 3px solid black;
+  border-radius: 8px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-body {
+  background-color: #0f172a;
+  color: white;
+  padding: 15px;
+}
+
+.card-body .btn {
+  margin-right: 5px;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+.distribution-title {
+  margin-top: 30px;
+  font-size: 25px;
+  font-family: verdana;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* delivery staff */
+
+#deliveryStaff {
+  margin-top: 80px;
+}
+
+.video-player-container {
+  position: relative;
+  display: inline-block;
+  margin-left: 320px;
+}
+
+.video-player {
+  width: 100%;
+  height: auto;
+}
+
+.video-controls {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.video-control-button {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+.volume-control {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.fullscreen .video-player-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.fullscreen .video-player {
+  width: 80%;
+  height: auto;
+}
+
+.fullscreen .video-controls {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  justify-content: center;
+}

@@ -1,0 +1,27 @@
+/* AllRequests.css */
+
+.table-container {
+  max-width: 100%;
+  overflow-x: auto; /* Allows horizontal scrolling if the table is too wide */
+}
+
+.table {
+  width: 100%; /* Ensures the table uses the full width of its container */
+  table-layout: fixed; /* Ensures columns are distributed evenly */
+}
+
+.table th, .table td {
+  text-align: center; /* Centers text in table cells */
+  padding: 8px; /* Adds padding for better readability */
+}
+
+.table td {
+  word-wrap: break-word; /* Ensures long text wraps within cells */
+}
+
+/* Optional: Control table height with scrolling */
+#all-requests-container {
+  margin-left: 50px;
+  max-height: 500px; /* Adjust as needed */
+  overflow-y: auto; /* Allows vertical scrolling if the content is too tall */
+}

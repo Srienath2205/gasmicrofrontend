@@ -1,0 +1,41 @@
+/* Modal styles */
+.modal-content {
+  background-color: black;
+  color: white;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+  border: none;
+}
+
+.modal-header .modal-title {
+  color: white;
+}
+
+.modal-body .form-label {
+  color: white;
+}
+
+.form-control {
+  background-color: #333;
+  color: white;
+  border-color: #555;
+}
+
+.form-control:focus {
+  background-color: #333;
+  color: white;
+  border-color: #777;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-secondary {
+  background-color: grey;
+  border-color: grey;
+}

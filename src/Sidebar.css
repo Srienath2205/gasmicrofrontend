@@ -1,0 +1,25 @@
+/* Sidebar.css */
+.custom-sidebar {
+  background: linear-gradient(45deg, #c33764, #1d2671);
+}
+
+.sidebar .nav-link {
+  color: #fff;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #495057;
+}
+
+.sidebar .sidebar-brand {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.sidebar .sidebar-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #495057;
+}

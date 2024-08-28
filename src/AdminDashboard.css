@@ -1,0 +1,13 @@
+.admin-dashboard {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.custom-card {
+  margin-bottom: 20px;
+}
